@@ -19,7 +19,7 @@ bot.command('sofa', (ctx) => ctx.replyWithPhoto({ source: '11.jpg' }, { caption:
 bot.command('developer', async (ctx) => {try {
     await ctx.reply (`Создатель бота @June09s`, Markup.inlineKeyboard(
         [[
-            Markup.button.callback (`Главное меню`, `btn_2`)
+            Markup.button.callback (`Главное меню`, `btn_1`)
         ]]
     ))
 } catch(e){
